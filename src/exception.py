@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 
 def error_message_detail(error,error_detail:sys):
@@ -29,3 +29,5 @@ if __name__ == "__main__":
         logging.info("Divide by 0 Error")
         raise CustomException(e,sys)
 """
+
+
